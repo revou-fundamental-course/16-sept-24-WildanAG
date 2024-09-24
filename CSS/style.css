@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-color: #1c1c1c;
 }
 
 header div img {
@@ -10,6 +11,11 @@ header div img {
     margin-right: 950px;
     width: 100px;
     float: left;
+    background-color: white;
+}
+
+nav {
+    background-color: white;
 }
 
 ul {
@@ -19,6 +25,7 @@ ul {
     overflow: hidden;
     display: flex;
     position: sticky;
+    background-color: white;
 }
 
 li {
@@ -40,6 +47,37 @@ li a {
     text-align: center;
     text-decoration: none;
     font-size: 1rem;
+    color: white;
+}
+
+.welcome {
+    margin: 30px;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: white;
+    border: 1px solid;
+    box-shadow: 0 0 10px #3cf3ea;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.welcome button {
+    margin: 0px;
+    padding: 0px;;
+    border-color: white;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+}
+
+.image1 img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    flex: content;
+    width: 30%;
 }
 
 main {
@@ -63,19 +101,101 @@ main h1 {
     border: 1px solid black;
 }
 
+main h2 {
+    margin: 25px;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+main .circle {
+    margin-left: 46.5%;
+    margin-right: 46.5%;
+    background-color: white;
+}
+
+.circle img {
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
 main .Namatempat {
     margin-left: 75px;
     margin-right: 75px;
     padding: 0px;
     font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h3 {
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 15%;
+}
+
+form {
+    text-align: left;
+    margin-left: 15%;
+    padding: 35px;
+    width: fit-content;
+    border: 1px solid;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px #3cf3ea;
+}
+
+input {
+    background-color: white;
+}
+
+label {
+    background-color: white;
+}
+
+textarea {
+    background-color: white;
+}
+
+.boxpesan {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    margin-left: 15%;
+    padding: 35px;
+    width: 24.5rem;
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 0 10px #3cf3ea;
+}
+
+.boxpesan p {
+    background-color: white;
+}
+
+.boxpesan span {
+    background-color: white;
 }
 
 footer {
     margin: 0px;
     padding: 35px;
     border: 1px solid;
+    background-color: white;
 }
 
-footer .footer {
+footer div p {
     text-align: right;
+    background-color: white;
 }
