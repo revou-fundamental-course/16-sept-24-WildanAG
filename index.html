@@ -24,59 +24,34 @@
 
     <hr>
 
+    <!-------- Welcome --------->
     <div class="welcome">
         <h1>Hi! <span id="name"></span> Welcome to my web!</h1>
-        <p>Ini adalah Web pertama saya</p>
-        <button id="tombol" onclick="Ganti()">Ganti nama</button>
+        <p>This is my first web</p>
     </div>
 
-    <div class="image1">
-        <img src="assets/P3.jpg" alt="Image1">
-        <img src="assets/P4.jpg" alt="Image2">
-        <img src="assets/P5.png" alt="Image3">
-    </div>
-    <hr>
+    <aside>
+        <img class="image1" src="assets/P3.jpg" alt="img1">
+        <img class="image2" src="assets/P4.jpg" alt="img2">
+        <img class="image3" src="assets/P5.png" alt="img3">
+    </aside> 
 
-    <!-----Main------>
+    <br>
+
     <main>
-        <h2>Our Headquarter</h2>
-        <div class="circle">
-            <img src="assets/Bogor.jpg" alt="location">
-        </div>
-        <div class="Namatempat">
-            <p>BOGOR</p>
-        </div>
-        <br>
-        <hr>
-        <h3>Message Us</h3>
-        <form name="message-form" onsubmit="return validateForm()">
-            Nama: <input placeholder="Nama" type="text" name="full-name" />
-            <br />
+        <section>
+            <h2>OUR PROFILE</h2>
+            <img src="assets/Me.jpg" alt="">
+            <h3>Wildan Ahmad Gifari</h3>
+            <div class="profile">
+                <p>Hello! Let me introduce myself, my name is Wildan Ahmad Gifari, you can call me Wildan.</p>
+                <p>I am 19 years old. I graduated from SMA NEGERI 5 BOGOR, now i am student of Institut Bisnis Informatika Kesatuan.</p>
+                <p>Saat ini saya tinggal di Bogor. Saya adalah orang..........</p>
+            </div>
 
-            Tanggal lahir:
-            <input type="date" name="birth-date" />
-            <br />
+            <h4>PORTOFOLIO</h4>
 
-            Jenis kelamin:
-            <input type="radio" id="male" name="gender" value="male" />
-            <label for="male">Laki-laki</label>
-            <input type="radio" id="female" name="gender" value="male" />
-            <label for="female">Perempuan</label>
-            <br />
-            
-            Pesan: <br>
-            <textarea placeholder="Pesan" name="messages"></textarea>
-            <br />
-
-            <input type="submit" value="Submit">
-        </form>
-
-        <div class="boxpesan">
-            <p>Nama: <span id="sender-full-name"></span></p>
-            <p>Tanggal lahir: <span id="sender-birth-date"></span></p>
-            <p>Jenis kelamin: <span id="sender-gender"></span></p>
-            <p>Pesan: <span id="sender-messages"></span></p>
-        </div>
+        </section>
     </main>
 
     <!-------Footer------->
@@ -86,5 +61,6 @@
         </div>
     </footer>
     <script src="JS/script.js"></script>
+
 </body>
 </html>
