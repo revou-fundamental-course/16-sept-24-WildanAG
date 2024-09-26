@@ -93,7 +93,7 @@ main section {
     text-align: center;
     font-family: Georgia, 'Times New Roman';
     border: 1px solid white;
-    border-radius: 35px;
+    border-radius: 40px;
 }
 
 main h2 {
@@ -119,4 +119,13 @@ main h3 {
     padding: 10px;
     font-size: 25px;
     color: white;
+}
+
+main section p {
+    margin: 0px;
+    padding: px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
